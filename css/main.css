@@ -2,6 +2,7 @@ html *{
     font-family: 'Montserrat', sans-serif;;
     --dark_primary: rgb(39, 37, 37);
     --light_primary: rgb(223, 219, 219);
+    --accent_primary: rgb(44, 119, 218);
 }
 
 #mainNav {
@@ -42,6 +43,8 @@ html *{
     margin-right: 40px;
     color: rgb(235, 226, 226);
     font-size: 1em;
+    border-bottom: 2px solid var(--accent_primary);
+    padding-bottom: 3px;
 }
 
 html, body{
