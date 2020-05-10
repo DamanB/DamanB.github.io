@@ -1,6 +1,7 @@
 html *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     --dark_primary: rgb(39, 37, 37);
+    --light_primary: rgb(223, 219, 219);
 }
 
 #mainNav {
@@ -49,7 +50,7 @@ html, body{
 
 body{
     margin: 0;
-    background: url(/img/background/Background1.jpg);
+    background: url(/img/background/Background2.jpg);
 }
 
 .welcome{
@@ -60,7 +61,7 @@ body{
 .welcome span{
     position: relative;
     font-size: 2.8em;
-    color: var(--dark_primary);
+    color: var(--light_primary);
 }
 
 #showcases{
@@ -82,5 +83,5 @@ body{
     text-align: center;
     width: 100%;
     height: 100%;
-    box-shadow: 8px 8px 8px rgb(85, 83, 83);
+    box-shadow: 8px 8px 8px rgb(43, 43, 43);
 }
