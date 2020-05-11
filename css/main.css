@@ -139,12 +139,3 @@ body{
 .itemHeader span{
     color: var(--light_primary);
 }
-
-@keyframes slideup {
-    from{
-        height: 0%;
-    }
-    to{
-        height: 100%
-    }
-}
